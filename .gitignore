@@ -1,0 +1,25 @@
+# ---- FRONTEND ----
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.*
+
+# ---- BACKEND ----
+backend/__pycache__/
+backend/.venv/
+backend/venv/
+backend/*.pyc
+backend/.env
+backend/.env.*
+
+# ---- GENERAL ----
+.DS_Store
+*.log
+*.tmp
+
+# AWS Credentials (IMPORTANT)
+.aws/
+*.pem
+
+# VSCode
+.vscode/
