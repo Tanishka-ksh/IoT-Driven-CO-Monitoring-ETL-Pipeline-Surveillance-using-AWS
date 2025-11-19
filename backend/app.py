@@ -11,8 +11,12 @@ CORS(app)
 # Athena client
 athena = boto3.client('athena', region_name='ap-south-1')
 
-DATABASE = 'iot_processed_db'
-OUTPUT_S3 = 's3://iot-query-results-tanishka-new/'
+# NOTE: These values were originally connected to AWS during development.
+# They are now placeholders so that credentials and internal resources
+# are NOT exposed on public GitHub.
+
+DATABASE = 'your_database_name_here'
+OUTPUT_S3 = 's3://your-output-bucket-here/'
 
 # Track acknowledged alerts to prevent re-popup
 acknowledged_alerts = set()
